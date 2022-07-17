@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+*
+{
+    margin: 0;
+}
+
+li, a, button
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.container
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.logo
+{
+    cursor: pointer;
+}
+
+.navLinks
+{
+    list-style: none;
+    align-items: center;
+}
+
+.navLinks li
+{
+    display: inline-block;
+    padding: 0px 30px;
+}
+.navLinks li a
+{
+    transition: all 0.3s ease 0s;
+}
+.navLinks li a:hover
+{
+    color: #0088a9
+}
+
+.nameHeader h1
+{
+    animation: type 2s steps(30);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 20ch;
+}
+
+@keyframes type
+{
+    0%
+    {
+        border-right: solid orange;
+        width: 0ch;
+    }
+    80%
+    {
+        border-right: solid orange;
+        width: 20ch;
+    }
+    100%
+    {
+        border-right: none;
+    }
+}
+
+.img
+{
+    transition: all 0.3s ease 0s;
+}
+.img:hover
+{
+    opacity: 0.6;
+    transition: all 0.3s ease 0s;
+}
+
+button
+{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover
+{
+    background-color:  rgba(0, 136, 169, 0.8);
+}
+
+body 
+{
+    background-image: url("Wallpaper.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;      
+}
+
+h1 
+{
+    margin-top: 75px;
+    color: white;
+    margin-left: 20px;
+    text-align:center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align:center;
+    font-size: 30x;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nameHeader
+{
+  margin: auto;
+  width: 50%;
+}
+
+.workLinks
+{
+  display: grid;
+  margin: auto;
+  height: 100px;
+  grid-template-columns: auto auto auto;
+  width: 50%;
+}
+
+.section1
+{
+
+   margin: auto;
+   margin-right: 0px;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-right: 0px;
+}
+.section2
+{
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 0px;
+}
+.section3
+{
+    margin: auto;
+    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
