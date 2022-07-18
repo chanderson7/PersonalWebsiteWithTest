@@ -4,7 +4,8 @@
 </html>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial scale = 1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <script src="events.js"></script>
     <title> Charles Anderson's Portfolio Website </title> 
     <link rel="stylesheet"
     href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -20,7 +21,7 @@
         <ul class = "navLinks">
           <li><a href = '#'>Services</a></li>
           <li><a href = '#'>Projects</a></li>
-          <li><a href = '#'>About</a></li>
+          <li><span onclick="transitionToPage('about.html')">About</span></li>
         </ul>
       </nav>
       <a class="cta" href="#"><button>Contact</button></a>

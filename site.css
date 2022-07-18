@@ -14,6 +14,11 @@ li, a, button
     text-decoration: none;
 }
 
+body { 
+    opacity: 0;
+    transition: opacity .5s;
+ }
+
 header
 {
     display: flex;
